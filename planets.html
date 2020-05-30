@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Planets</title>
+    <link rel="stylesheet" href="css/planets.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cinzel|Dancing+Script|Hind+Madurai&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header container">
+    <h1 class="rellax-non-centered">Celestial Globe</h1>
+</header>
+<nav class="navigation">
+    <div class="nav-item">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="planets.html">Planets</a> </li>
+            <li><a href="#">Stars</a></li>
+            <li><a href="#">Astronomers</a></li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="planet-container earth">
+    <div class="planet-content">
+        <div class="planet-header"><h3>Earth</h3></div>
+        <div class="planet-stuff" ><a href="planets/earth.html"><img class="rellax-non-centered" data-rellax-speed="4" src="images/earth.png"></a></div>
+    </div>
+</div>
+    <div class="planet-container mars">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Mars</h3></div>
+            <div class="planet-stuff" ><a href="#"><img class="rellax-non-centered" data-rellax-speed="2" src="images/mars.png"></a> </div>
+        </div>
+    </div>
+
+    <div class="planet-container jupiter">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Jupiter</h3></div>
+            <div class="planet-stuff" ><a href="#"><img class="rellax-non-centered" data-rellax-speed="5" src="images/jupiter.png"></a> </div>
+        </div>
+    </div>
+    <div class="planet-container saturn">
+    <div class="planet-content">
+        <div class="planet-header"><h3>Saturn</h3></div>
+        <div class="planet-stuff" > <img class="rellax-non-centered" data-rellax-speed="2" src="images/saturn.png"></div>
+    </div>
+</div>
+
+    <div class="planet-container neptune">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Neptune</h3></div>
+            <div class="planet-stuff" > <img class="rellax-non-centered" data-rellax-speed="2" src="images/neptune.png"></div>
+        </div>
+    </div>
+
+    <div class="planet-container uranus">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Uranus</h3></div>
+            <div class="planet-stuff" > <img class="rellax-non-centered" data-rellax-speed="4" src="images/uranus.png"></div>
+        </div>
+    </div>
+
+    <div class="planet-container mercury">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Mercury</h3></div>
+            <div class="planet-stuff" > <img class="rellax-non-centered" data-rellax-speed="1" src="images/mercury.png"></div>
+        </div>
+    </div>
+
+    <div class="planet-container venus">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Venus</h3></div>
+            <div class="planet-stuff" > <img class="rellax-non-centered" data-rellax-speed="5" src="images/venus.png"></div>
+        </div>
+    </div>
+
+    <div class="planet-container pluto">
+        <div class="planet-content">
+            <div class="planet-header"><h3>Pluto</h3></div>
+            <div class="planet-stuff" > <img class="rellax-non-centered" data-rellax-speed="1" src="images/pluto.png"></div>
+        </div>
+    </div>
+
+</main>
+<footer>
+
+</footer>
+
+</body>
+<script src="js/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.rellax', {
+        center: true
+    });
+
+    var rellaxNonCentered = new Rellax('.rellax-non-centered', {
+        center:false
+    });
+</script>
+</html>

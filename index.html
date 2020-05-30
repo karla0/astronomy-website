@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celestial Globe</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cinzel|Dancing+Script|Hind+Madurai&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header container">
+<h1 class="rellax-non-centered">Celestial Globe</h1>
+</header>
+<nav class="navigation">
+    <div class="nav-item">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planets.html">Planets</a> </li>
+        <li><a href="#">Stars</a></li>
+        <li><a href="#">Astronomers</a></li>
+    </ul>
+    </div>
+</nav>
+
+<main>
+    <h2>What's New</h2>
+    <div class="main-item"><p></p></div>
+</main>
+<aside>
+    <h2>Highlights</h2>
+
+</aside>
+
+<footer class="container">
+</footer>
+<script src="js/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.rellax', {
+        center: true
+    });
+
+    var rellaxNonCentered = new Rellax('.rellax-non-centered', {
+        center:false
+    });
+</script>
+</body>
+</html>

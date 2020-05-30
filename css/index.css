@@ -1,0 +1,80 @@
+aside {
+    width: 34.375%;
+    padding: 15px 1.5625%;
+    float: right;
+    background-color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+     margin: 0 auto;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,193,232,1) 54%, rgba(0,52,255,0.8107344632768362) 100%);
+    color: white;
+    font-family: 'Cinzel',serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+main{
+
+    width: 59.375%;
+
+    background-color: cadetblue;
+    position: relative;
+    font-family: 'Alegreya Sans', sans-serif;
+    float: left;
+    padding: 15px 1.5625%;
+
+}
+main h2{
+    color: white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+.nav-item ul{
+ list-style-type: none;
+    margin: 0;
+
+}
+
+.nav-item li {
+    float: left;
+
+}
+
+.nav-item li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.nav-item li a:hover {
+    background-color: #333333;
+
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+}
